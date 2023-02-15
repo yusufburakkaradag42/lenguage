@@ -1,0 +1,17 @@
+.text{
+text-align: center;
+    font-size: 40px;
+
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 4rem;
+}
+.section{
+    display: flex;  
+    align-items: center;
+}
+.card{
+    margin:5rem;
+}

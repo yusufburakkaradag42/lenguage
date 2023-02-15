@@ -6,7 +6,9 @@ const LessonCard = () => {
   return (
     <div>
         <div className='text'>LessonRemind</div>
+        <div className='main'>
         {
+            
             data.map(({image,name,age})=>(
              <div className='section'>
                 <img width="180px" height="180px" src={image} alt="" />
@@ -17,7 +19,7 @@ const LessonCard = () => {
             </div>
             )) }
         
-        
+        </div>
     </div>
   )
 }
